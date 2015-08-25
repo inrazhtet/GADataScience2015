@@ -7,6 +7,8 @@ head -10 chipotle.tsv
 tail chipotle.tsv
 ```
 
+..2. How many orders do there appear to be?
+
 ```CommandLineFirstStep
 cat chipotle.tsv | awk '{ print $2 }' > total.csv
 ```
