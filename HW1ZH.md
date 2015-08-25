@@ -22,6 +22,12 @@ The paste function concatenates all the separate lines from total.csv in a singl
 
 [For usage of paste and bc](http://www.linuxandlife.com/2013/09/5-different-command-methods-to-get-sum.html)
 
+It looks like I misread the question so the actual answer would be
+
+```CommandLineActualAnswer
+sort -g -u chipotle.tsv 
+```
+
 ..3. How many lines are in this file?
 
 ```CommandLine
