@@ -1,4 +1,4 @@
-#### Predicting Water Pumps
+#### Predicting Water Pumps Failures
 
 *1. What is the question you hope to answer?*
 
