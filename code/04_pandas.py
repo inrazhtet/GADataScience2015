@@ -92,8 +92,8 @@ users.occupation.value_counts()[:3]
 # BONUS: create the 'users' DataFrame from the u.user_original file (which lacks a header row)
 # Hint: read the pandas.read_table documentation
 
-usersoriginal = pd.read_table('u.user_original',sep ='|',header = None, names=['user_id','age',...], index_col='user_id')
-usersoriginal.head()
+#usersoriginal = pd.read_table('u.user_original',sep ='|',header = None, names=['user_id','age',...], index_col='user_id')
+#usersoriginal.head()
 
 '''
 Filtering and Sorting
