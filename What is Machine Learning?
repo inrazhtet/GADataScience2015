@@ -1,0 +1,29 @@
+What is Machine Learning?
+
+Machine learning is the semi-automatic extraction of knowledge from data.
+
+Knowledge from data:
+Automatic extraction:
+Semi-automatic: Requires many smart decisions by a human :) 
+
+---
+Supervised Learning -- predictive modeling
+
+Predict whether an email is spam or ham
+The goal is 'generalization'
+
+---
+Regression : the outcome is continuous -- meaning a continuous numeric value
+We are not presuming a regression technique
+
+Classification : the outcome we are trying to predict is categorical
+--- Ordinal
+--- Nominal
+
+
+
+--- 
+
+Unsupervised Learning -- 
+
+
