@@ -289,13 +289,25 @@ management_dummies = pd.get_dummies(WaterX.management,prefix ='Management')
 region_dummies = pd.get_dummies(WaterX.region, prefix='Region')
 waterpoint_dummies = pd.get_dummies(WaterX.waterpoint_type, prefix='WaterPoint')
 
+'''
+Putting my dummies to my separate X-feature data frame
+'''
+
 WaterX = pd.concat([WaterX, management_dummies,region_dummies,waterpoint_dummies], axis = 1)
+
+'''
+Just getitng out the dummy variables
+'''
 
 WaterX.columns[3:]
 
 feature_cols = WaterX.columns[3:]
 X = WaterX[feature_cols]
 y
+
+'''
+Running the logistic function and evaluation
+'''
 
 from sklearn.cross_validation import train_test_split
 X_train, X_test, y_train, y_test = train_test_split(X,y, random_state =1)
